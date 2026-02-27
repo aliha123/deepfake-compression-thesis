@@ -6,6 +6,8 @@ __pycache__/
 # Mac
 .DS_Store
 
-# Data / outputs (keep empty folders via .gitkeep if needed)
-data/
-results/
+# Data / outputs
+data/*
+results/*
+!data/.gitkeep
+!results/.gitkeep
