@@ -1,7 +1,11 @@
+# Python / venv
 .venv/
 __pycache__/
 *.pyc
+
+# Mac
 .DS_Store
+
+# Data / outputs (keep empty folders via .gitkeep if needed)
 data/
 results/
-.DS_Store
