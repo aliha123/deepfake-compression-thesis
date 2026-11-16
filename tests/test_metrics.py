@@ -1,4 +1,5 @@
 import numpy as np
+import pytest
 
 from src.metrics import evaluate_binary_predictions, robustness_drop
 
@@ -24,4 +25,4 @@ def test_single_class_auc_is_none():
 
 
 def test_robustness_drop():
-    assert robustness_drop(0.91, 0.84) == 0.07
+    assert robustness_drop(0.91, 0.84) == pytest.approx(0.07)
